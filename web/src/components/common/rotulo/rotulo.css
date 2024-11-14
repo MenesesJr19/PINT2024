@@ -1,0 +1,21 @@
+.rotulo {
+	border-radius: 20px;
+	background-color: var(--rotulo-background, var(--LIGHT-PRIMARY));
+	color: var(--rotulo-color, var(--TEXT-INVERSE));
+	display: inline-block;
+	padding: 5px 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+	transition: background-color 0.3s ease, box-shadow 0.3s ease;
+	max-width: 100%; /* Garante que o rótulo não ultrapasse o contêiner pai */
+	overflow: hidden; /* Impede que o conteúdo extrapole os limites */
+	white-space: nowrap; /* Impede a quebra de linha */
+	text-overflow: ellipsis; /* Adiciona "..." se o conteúdo exceder o espaço */
+}
+
+.rotulo-texto {
+	overflow: hidden; /* Esconde o excesso de texto */
+	text-overflow: ellipsis; /* Adiciona "..." ao final do texto se necessário */
+	white-space: nowrap; /* Garante que o texto não quebre em múltiplas linhas */
+	max-width: 100%; /* Garante que o texto respeite a largura máxima do contêiner */
+	display: block;
+}

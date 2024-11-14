@@ -1,0 +1,17 @@
+.layout-container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+#main-conteudo {
+	position: relative;
+	padding-top: calc(var(--HEADER_VH) + 5px);
+	flex: 1;
+	margin-left: 0;
+	transition: margin-left 0.3s ease, width 0.3s ease;
+}
+
+.top-gap-beetwen-items {
+	padding-top: 10px;
+}

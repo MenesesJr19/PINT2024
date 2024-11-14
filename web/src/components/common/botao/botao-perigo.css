@@ -1,0 +1,25 @@
+.botao-perigo {
+	color: var(--WHITE);
+	background-color: var(--DANGER);
+	border-color: var(--DANGER);
+}
+
+.botao-perigo:hover {
+	color: var(--WHITE);
+	background-color: var(--LIGHT-DANGER);
+	border-color: var(--LIGHT-DANGER);
+}
+
+.botao-perigo:active {
+	color: var(--WHITE);
+	background-color: var(--LIGHT-DANGER);
+	border-color: var(--LIGHT-DANGER);
+}
+
+.botao-perigo:disabled {
+	color: var(--WHITE);
+	background-color: var(--DANGER-TRANSPARENT);
+	border-color: var(--DANGER-TRANSPARENT);
+	pointer-events: none;
+	cursor: not-allowed;
+}

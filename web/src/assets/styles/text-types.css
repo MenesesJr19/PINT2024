@@ -1,0 +1,29 @@
+.text-types-primary {
+	color: var(--TEXT-PRIMARY);
+}
+
+.text-types-secondary {
+	color: var(--TEXT-SECONDARY);
+}
+
+.text-types-success {
+	color: var(--TEXT-SUCCESS);
+}
+
+.text-types-danger {
+	color: var(--TEXT-DANGER);
+}
+
+.text-types-inverse {
+	color: var(--TEXT-INVERSE);
+}
+
+.text-types-link {
+	color: var(--TEXT-PRIMARY);
+	text-decoration: none !important;
+}
+
+.text-types-link:hover {
+	color: var(--TEXT-PRIMARY);
+	text-decoration: underline !important;
+}

@@ -1,0 +1,71 @@
+.iniciar-sessao-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+.form-item {
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  text-align: left;
+}
+
+.form-input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.form-button {
+  padding: 0.5rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.form-button:hover {
+  background-color: #3e8e41;
+}
+
+.secundario-button {
+  padding: 0.5rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.secundario-button:hover {
+  background-color: #222;
+}
+
+.forgot-password-link {
+  color: #0066cc;
+  font-size: 0.8rem;
+  text-decoration: none;
+  margin-top: 1rem;
+  text-align: center;
+  display: block;
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline;
+}
+

@@ -1,0 +1,128 @@
+#myImg {
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+#myImg:hover {
+	opacity: 0.9;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-conteudo {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+}
+
+#caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+.modal-conteudo,
+#caption {
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+
+.close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+}
+
+.close:hover,
+.close:focus {
+	color: var(--WHITE-HOVER);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+	.modal-conteudo {
+		width: 100%;
+	}
+}
+
+.modal-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: blurBackground 1s ease 0s forwards;
+}
+
+.modal-conteudo {
+	padding: 20px;
+	border-radius: 10px;
+	position: relative;
+	max-width: 50%;
+	overflow: auto;
+	text-align: center;
+}
+
+.modal-navigation {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-image {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	width: 60%;
+	height: 60%;
+}
+
+.arrow-left,
+.arrow-right {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+.arrow-left {
+	left: 10px;
+}
+
+.arrow-right {
+	right: 10px;
+}

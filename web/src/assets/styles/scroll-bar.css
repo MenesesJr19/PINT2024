@@ -1,0 +1,31 @@
+* {
+	scrollbar-width: thin;
+	scrollbar-color: var(--WHITE-AUX) transparent;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-clip: content-box;
+	background-color: var(--WHITE-AUX);
+	border: 2px solid transparent;
+	border-radius: 8px;
+	min-height: 30px;
+	min-width: 30px;
+}
+
+.remove-scroll::-webkit-scrollbar {
+	display: none;
+}
+
+.remove-scroll {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}

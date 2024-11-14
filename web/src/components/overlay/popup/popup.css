@@ -1,0 +1,45 @@
+.modal-header-icons svg:hover {
+	background-color: var(--WHITE-HOVER);
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 3px;
+	padding: 3px;
+}
+
+.modal-header-icons svg {
+	font-size: 1.5rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	margin: 3px;
+	padding: 3px;
+}
+
+.modal-dialog {
+	margin: auto;
+	padding: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal-confirmacao .modal-dialog {
+	width: 40vw;
+}
+
+.modal-popup .modal-dialog {
+	width: 60vw;
+}
+
+.modal-modalbase {
+	display: block;
+	overflow-y: auto;
+}
+
+.modal-content {
+	background-color: var(--BACKGROUND);
+}
+
+.modal-content {
+	max-height: 90vh;
+	overflow-y: auto;
+}

@@ -1,0 +1,55 @@
+.text-size-6 {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 40px;
+	line-height: 1.5;
+}
+
+.text-size-5 {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 23px;
+	line-height: 1.5;
+}
+
+.text-size-4 {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 23px;
+	line-height: 1.5;
+}
+
+.text-size-3 {
+	font-weight: 501;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.text-size-2 {
+	font-weight: 501;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.text-size-1 {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.text-size-0 {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 1.0;
+}
+
+.text-size-m1 {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 10px;
+	line-height: 1.0;
+}

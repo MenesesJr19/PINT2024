@@ -1,0 +1,8 @@
+{
+    "short_name": "SoftShares",
+    "name": "SoftShares",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#39639C",
+    "background_color": "#F0F0F0"
+}

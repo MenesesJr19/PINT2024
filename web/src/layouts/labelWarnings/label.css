@@ -1,0 +1,18 @@
+.label-bar-error {
+	background-color: var(--DANGER);
+}
+
+.label-bar-info {
+	background-color: var(--INFO);
+}
+
+.label-bar-sucess {
+	background-color: var(--SUCCESS);
+}
+
+.label-bar {
+	padding: 2px;
+	text-align: center;
+	margin: 5px 0 15px 0;
+	border-radius: 5px;
+}

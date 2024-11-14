@@ -1,0 +1,130 @@
+.remove-user-select {
+	/* utilizador deixa de conseguir selecionar o texto */
+	-webkit-user-select: none;
+	/* Safari */
+	-moz-user-select: none;
+	/* Firefox */
+	-ms-user-select: none;
+	/* IE10+/Edge */
+	user-select: none;
+	/* Standard */
+}
+
+.perigo {
+	color: var(--DANGER);
+}
+
+.sucesso {
+	color: var(--SUCCESS);
+}
+
+.remove-padding {
+	padding: 0;
+}
+
+.remove-margin {
+	margin: 0;
+}
+
+.remove-bullet {
+	list-style-type: none;
+}
+
+.icon-size-big {
+	font-size: 18px;
+}
+
+.icon-hover:hover {
+	transform: scale(1.2);
+	color: var(--ACCENT);
+	cursor: pointer;
+}
+
+.icon-darker-hover:hover {
+	background-color: var(--DARKER-WHITE-HOVER);
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.icon-square-hover:hover {
+	background-color: var(--WHITE-HOVER);
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.card-hover:hover {
+	background-color: var(--WHITE-HOVER) !important;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.icon {
+	font-size: 2rem;
+}
+
+.no-style {
+	text-decoration: none;
+}
+
+.link {
+	color: red;
+}
+
+.link-hover:hover {
+	color: var(--LIGHT-PRIMARY);
+}
+
+.underline-hover:hover {
+	text-decoration: underline;
+}
+
+.icon-inverse {
+	color: var(--ICON-INVERSE);
+}
+
+.icon-color {
+	color: var(--DARK-PRIMARY) !important;
+}
+
+.card-user-picture {
+	width: 40px;
+	height: 40px;
+	border-radius: 30px;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.remove-text-decoration {
+	text-decoration: none;
+}
+
+.line-limit-text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+}
+
+.line-limit-tittle {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+}
+
+.circular-image {
+	border-radius: 50%;
+}
+
+.form-is-invalid {
+	border-color: var(--DANGER);
+}
+
+.combo-box {
+	width: auto;
+	flex-shrink: 0;
+}

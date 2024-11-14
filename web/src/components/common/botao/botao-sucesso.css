@@ -1,0 +1,25 @@
+.botao-sucesso {
+	color: var(--WHITE);
+	background-color: var(--SUCCESS);
+	border-color: var(--SUCCESS);
+}
+
+.botao-sucesso:hover {
+	color: var(--WHITE);
+	background-color: var(--LIGHT-SUCCESS);
+	border-color: var(--LIGHT-SUCCESS);
+}
+
+.botao-sucesso:active {
+	color: var(--WHITE);
+	background-color: var(--LIGHT-SUCCESS);
+	border-color: var(--LIGHT-SUCCESS);
+}
+
+.botao-sucesso:disabled {
+	color: var(--WHITE);
+	background-color: var(--LIGHT-SUCCESS-TRANSPARENT);
+	border-color: var(--LIGHT-SUCCESS-TRANSPARENT);
+	pointer-events: none;
+	cursor: not-allowed;
+}

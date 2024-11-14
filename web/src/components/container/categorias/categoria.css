@@ -1,0 +1,36 @@
+.card-categoria {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	color: black;
+	padding: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	text-align: center;
+	position: relative;
+	transition: background-color 0.3s;
+	border-radius: 25px;
+	border: 1px solid var(--DIVIDER);
+	width: 120px;
+	height: 90px;
+}
+
+.card-categoria.selected {
+	background-color: var(--LIGHT-PRIMARY);
+}
+
+.card-categoria:hover {
+	background-color: var(--WHITE-HOVER);
+}
+
+.card-categoria.selected:hover {
+	background-color: var(--PRIMARY);
+}
+
+.check-icon {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: white;
+}

@@ -1,0 +1,73 @@
+.arrowContainer {
+	display: flex;
+	position: relative; /* Para garantir que as setas fiquem posicionadas corretamente */
+}
+
+.h-scroll-icon {
+	font-size: 30px !important;
+	cursor: pointer;
+}
+
+.h-scroll-icon:hover {
+	filter: brightness(3); /* Torna o ícone 20% mais claro */
+}
+
+.leftArrow,
+.rightArrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 100;
+	cursor: pointer;
+}
+
+.leftArrow {
+	left: 1rem;
+}
+
+.rightArrow {
+	right: 1rem;
+}
+
+.cardsWrapper {
+	display: flex;
+	overflow-x: scroll;
+	scroll-behavior: smooth;
+	overflow-y: hidden;
+	column-gap: 16px;
+	padding: 16px;
+	position: relative;
+	scroll-snap-type: x mandatory;
+}
+
+.sombraEsquerda,
+.sombraDireita {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 50px;
+	pointer-events: none;
+	transition: opacity 0.3s ease;
+}
+
+.sombraEsquerda {
+	z-index: 2;
+	left: 0;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.4), transparent);
+}
+
+.sombraDireita {
+	z-index: 2;
+	right: 0;
+	background: linear-gradient(to left, rgba(0, 0, 0, 0.4), transparent);
+}
+
+.esconde-sombra {
+	opacity: 0;
+}
+
+.scrollConteudo {
+	border-radius: 12px;
+	overflow: hidden; /* Ensures content is clipped to border-radius */
+	position: sticky;
+  }

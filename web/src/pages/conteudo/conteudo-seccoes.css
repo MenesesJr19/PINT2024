@@ -1,0 +1,28 @@
+.navegar {
+	display: inline-flex;
+	align-items: center;
+	width: auto;
+	text-decoration: none;
+}
+
+.navegar-content {
+	display: flex;
+	align-items: center;
+}
+
+.navegar-content > * {
+	margin-right: 5	px;
+}
+
+.navegar-content > *:last-child {
+	margin-right: 0;
+}
+
+.horizontal-cards {
+	display: flex;
+	gap: 4px;
+	overflow-x: auto;
+	padding: 10px;
+	box-shadow: inset 10px 0 10px -10px rgba(0, 0, 0, 0.1),
+				inset -10px 0 10px -10px rgba(0, 0, 0, 0.1);
+}

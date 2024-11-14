@@ -1,0 +1,55 @@
+.home-container {
+	text-align: center;
+}
+
+.hero-section {
+	background-image: url("../assets/images/home/bg-image.jpg");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding: 60px 20px;
+	height: 300px;
+	border-radius: 5px;
+}
+
+.hero-section h1 {
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+.hero-section p {
+	font-size: 1.5em;
+}
+
+.features-section {
+	display: flex;
+	justify-content: space-around;
+	margin: 40px 0;
+}
+
+.feature-card {
+	background: #f9f9f9;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	width: 300px;
+	transition: transform 0.3s;
+}
+
+.feature-card:hover {
+	transform: scale(1.05);
+}
+
+.feature-card img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.feature-card h2 {
+	margin: 20px 0 10px;
+}
+
+.feature-card p {
+	padding: 0 20px 20px;
+}

@@ -1,0 +1,15 @@
+.painel-tabela {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.painel-tabela th,
+.painel-tabela td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+.painel-tabela th {
+	background-color: #f2f2f2;
+}

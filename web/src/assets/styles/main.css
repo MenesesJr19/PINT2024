@@ -1,0 +1,61 @@
+@import url(animations.css);
+@import url(color.css);
+@import url(scroll-bar.css);
+@import url(sizes.css);
+@import url(text-sizes.css);
+@import url(text-types.css);
+@import url(utils.css);
+@import url(z-index.css);
+
+body,
+html,
+#root,
+main {
+	background-color: var(--BACKGROUND);
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	color-scheme: light;
+}
+
+* {
+	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+		"Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.MuiTypography-root {
+	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+		"Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: var(--TEXT-PRIMARY);
+	text-decoration: none;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+textarea {
+	resize: none;
+}
+
+svg {
+	color: var(--ICON-PRIMARY);
+}
+
+.modal-backdrop {
+	visibility: hidden;
+}

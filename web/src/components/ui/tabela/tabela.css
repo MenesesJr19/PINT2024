@@ -1,0 +1,38 @@
+.table-container {
+	overflow-x: auto;
+}
+
+.custom-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 20px 0;
+	font-size: 18px;
+	text-align: left;
+}
+
+.custom-table th,
+.custom-table td {
+	padding: 12px 15px;
+}
+
+.custom-table thead {
+	background-color: #009879;
+	color: #ffffff;
+	text-align: left;
+}
+
+.custom-table tbody tr {
+	border-bottom: 1px solid #dddddd;
+}
+
+.custom-table tbody tr:nth-of-type(even) {
+	background-color: #f3f3f3;
+}
+
+.custom-table tbody tr:last-of-type {
+	border-bottom: 2px solid #009879;
+}
+
+.custom-table tbody tr:hover {
+	background-color: #f1f1f1;
+}

@@ -1,0 +1,28 @@
+@import url(botao-primario.css);
+@import url(botao-secundario.css);
+@import url(botao-perigo.css);
+@import url(botao-sucesso.css);
+@import url(botao-transparente.css);
+
+.botao {
+	display: inline-block;
+	font-weight: normal;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	user-select: none;
+	border: 1px solid;
+	padding: 0.375rem 0.75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: 0.5rem;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+		box-shadow 0.15s ease-in-out;
+	position: relative;
+	transition: transform 0.2s;
+}
+
+.botao:active {
+	transform: scale(0.95);
+}

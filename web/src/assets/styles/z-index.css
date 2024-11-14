@@ -1,0 +1,91 @@
+:root {
+	--POPUP: 908;
+	--POPUP-BACKGROUND: 908 - 1;
+
+	--CONFIRMACAO: 910;
+	--CONFIRMACAO-BACKGROUND: 910 - 1;
+
+	--NOTIFICACAO-POPUP: 911;
+
+	--LOADING: 920;
+
+	--HEADER-DROPDOWN: 906;
+	--REGULAR-DROPDOWN: 904;
+
+	--SIDE-BAR-HEADER: 700;
+	--HEADER: 710;
+	--FOOTER: 710;
+
+	--BOTAO: 1;
+
+	--IMAGEM-MODAL: 900;
+
+	--TOOL-TIP: 800;
+}
+
+.loading-operation {
+	z-index: var(--LOADING);
+}
+
+.notification-popup {
+	z-index: var(--NOTIFICACAO-POPUP);
+}
+
+.desktop-nav .dropdown,
+.mobile-nav .menus {
+	z-index: var(--HEADER-DROPDOWN);
+}
+
+.c-dropdown-content {
+	z-index: var(--REGULAR-DROPDOWN);
+}
+
+.modal-modalbase {
+	z-index: var(--POPUP);
+}
+
+.modal-backdrop {
+	z-index: 0;
+}
+
+.modal-confirmacao .modal {
+	z-index: var(--CONFIRMACAO);
+}
+
+.modal-confirmacao .modal-backdrop {
+	z-index: var(--CONFIRMACAO-BACKGROUND);
+}
+
+.modal-popup .modal {
+	z-index: var(--POPUP);
+}
+
+.modal-popup .modal-backdrop {
+	z-index: var(--POPUP-BACKGROUND);
+}
+
+.modal-overlay {
+	z-index: var(--IMAGEM-MODAL);
+}
+
+.Tooltip-Tip {
+	z-index: var(--TOOL-TIP);
+}
+
+.drawer--open,
+.nav-menu,
+aside {
+	z-index: var(--SIDE-BAR-HEADER);
+}
+
+header {
+	z-index: var(--HEADER);
+}
+
+footer {
+	z-index: var(--FOOTER);
+}
+
+button {
+	z-index: var(--BOTAO);
+}

@@ -1,0 +1,25 @@
+.image-size {
+	width: 160px;
+	height: 160px;
+}
+
+.mb-content-image {
+	margin-bottom: 25px;
+	display: inline-flex;
+}
+
+.details-right {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1rem;
+	flex-wrap: nowrap;
+}
+
+.conta-combo-box {
+	flex-shrink: 1;
+	max-width: 300px;
+	min-width: 200px !important;
+	width: 100%;
+	box-sizing: border-box;
+}

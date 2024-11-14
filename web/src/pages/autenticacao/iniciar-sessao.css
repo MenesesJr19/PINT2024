@@ -1,0 +1,40 @@
+.cartao {
+	background-color: var(--BACKGROUND);
+	border-radius: 1rem;
+	max-width: 400px;
+	margin: 2rem auto;
+}
+
+.cartao-body {
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.fab {
+	font-size: 1.5rem;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+a:hover {
+	color: #ddd;
+}
+
+h2 {
+	margin-bottom: 1.5rem;
+}
+
+.mb-0 {
+	margin-bottom: 0;
+}
+
+.mb-5 {
+	margin-bottom: 3rem;
+}

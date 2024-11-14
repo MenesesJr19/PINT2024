@@ -1,0 +1,25 @@
+.botao-primario {
+	color: var(--WHITE);
+	background-color: var(--PRIMARY);
+	border-color: var(--PRIMARY);
+}
+
+.botao-primario:hover {
+	color: var(--WHITE);
+	background-color: var(--LIGHT-PRIMARY);
+	border-color: var(--LIGHT-PRIMARY);
+}
+
+.botao-primario:active {
+	color: var(--WHITE);
+	background-color: var(--LIGHT-PRIMARY);
+	border-color: var(--LIGHT-PRIMARY);
+}
+
+.botao-primario:disabled {
+	color: var(--WHITE);
+	background-color: var(--LIGHT-PRIMARY-TRANSPARENT);
+	border-color: var(--LIGHT-PRIMARY-TRANSPARENT);
+	pointer-events: none;
+	cursor: not-allowed;
+}

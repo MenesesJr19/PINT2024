@@ -1,0 +1,30 @@
+:root {
+	--HEADER_VH: 70px;
+	/*--FOOTER_VH: 7%;*/
+}
+
+.header-height {
+	height: var(--HEADER_VH);
+}
+
+.header-min-height {
+	min-height: var(--HEADER_VH);
+}
+
+.header-max-height {
+	max-height: var(--HEADER_VH);
+}
+
+/*
+.footer-height {
+	height: var(--FOOTER_VH);
+}
+
+.footer-min-height {
+	min-height: var(--FOOTER_VH);
+}
+
+.footer-max-height {
+	max-height: var(--FOOTER_VH);
+}
+*/

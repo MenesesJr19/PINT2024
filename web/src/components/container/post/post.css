@@ -1,0 +1,18 @@
+.post-card {
+	background: #f9f9f9;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	width: 300px;
+	transition: transform 0.3s;
+	margin: 10px;
+}
+
+.post-card:hover {
+	transform: scale(1.05);
+}
+
+.post-card-body {
+	padding: 10px 15px 15px 15px;
+	height: 150px;
+}

@@ -1,0 +1,50 @@
+aside {
+  align-items: end;
+  background-color: var(--BLACK-LIGHT);
+  position: fixed;
+  height: 100vh;
+  overflow: auto;
+  padding-top: var(--HEADER_VH);
+}
+
+.drawer-nav-items > * {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.drawer-item-label {
+  font-size: 1.1rem !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header-item:hover {
+  background-color: var(--BLACK-HOVER);
+  mix-blend-mode: lighten;
+  border-radius: 10px;
+}
+
+.header-item {
+  margin: 6px;
+  height: 46px;
+}
+
+.drawer-item-icon {
+  height: 27px;
+  width: 27px;
+  flex-shrink: 0;
+}
+
+.drawer-item-icon-highlight {
+	transform: scale(1.2);
+}
+
+.drawer-item-highlight {
+  background-color: var(--BLACK-HOVER);
+  border-radius: 10px;
+}
+
+.drawer-item {
+  opacity: 70%;
+}

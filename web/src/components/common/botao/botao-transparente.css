@@ -1,0 +1,25 @@
+.botao-transparente {
+	color: var(--BLACK);
+	background-color: var(--TRANSPARENT);
+	border-color: black;
+}
+
+.botao-transparente:hover {
+	color: var(--BLACK);
+	background-color: var(--WHITE-HOVER);
+	border-color: black;
+}
+
+.botao-transparente:active {
+	color: var(--BLACK);
+	background-color: var(--TRANSPARENT);
+	border-color: black;
+}
+
+.botao-transparente:disabled {
+	color: var(--BLACK);
+	background-color: var(--TRANSPARENT);
+	border-color: black;
+	pointer-events: none;
+	cursor: not-allowed;
+}
